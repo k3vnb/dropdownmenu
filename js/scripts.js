@@ -4,7 +4,6 @@ $(document).ready(function() {
   $("form#ageform").submit(function(event) {
     var userAge = $("select#age").val();
     event.preventDefault();
-
     if (userAge === 'oldenough') {
       $("#oldenough").show();
     } else if (userAge === 'tooyoung'){
